@@ -17,6 +17,14 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '^3.8'
+
+      - name: Install scriv
+        run: python -m pip install scriv
+
       - name: Create release
         run: |
           new_version="$(git tag --merged HEAD --sort v:refname | perl -nle 'print "$1.$2.", $3+1 if /^(\d+)\.(\d+)\.(\d+)$/' | tail -n1)"
