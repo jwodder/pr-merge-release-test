@@ -1,4 +1,11 @@
 
+<a id='changelog-0.0.2'></a>
+# 0.0.2 (2022-09-09)
+
+## Internal
+
+- Make scriv `git rm` deleted snippets
+
 <a id='changelog-0.0.1'></a>
 # 0.0.1 (2022-09-09)
 
