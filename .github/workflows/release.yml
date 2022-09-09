@@ -41,6 +41,6 @@ jobs:
           git push --tags
           scriv github-release
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 # vim:set sts=2:
