@@ -34,8 +34,7 @@ jobs:
         run: |
           new_version="$(git tag --merged HEAD --sort v:refname | perl -nle 'print "$1.$2.", $3+1 if /^(\d+)\.(\d+)\.(\d+)$/' | tail -n1)"
           echo "[INFO] New version: $new_version"
-          scriv collect --version "$new_version"
-          git add CHANGELOG.md
+          scriv collect --add --version "$new_version"
           git commit -m '[skip ci] Update CHANGELOG'
           git tag "$new_version"
           git push
