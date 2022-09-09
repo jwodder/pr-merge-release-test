@@ -17,6 +17,11 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Configure Git
+        run: |
+          git config --global user.name "Releaser"
+          git config --global user.email "test@github.nil"
+
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
