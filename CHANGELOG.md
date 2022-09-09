@@ -1,4 +1,11 @@
 
+<a id='changelog-0.0.3'></a>
+# 0.0.3 (2022-09-09)
+
+## Internal
+
+- Fix `GITHUB_TOKEN` envvar name in workflow
+
 <a id='changelog-0.0.2'></a>
 # 0.0.2 (2022-09-09)
 
