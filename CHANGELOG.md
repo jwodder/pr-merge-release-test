@@ -1,4 +1,11 @@
 
+<a id='changelog-0.0.5'></a>
+# 0.0.5 (2022-09-13)
+
+## Internal
+
+- Fix release URLs in comments
+
 <a id='changelog-0.0.4'></a>
 # 0.0.4 (2022-09-13)
 
