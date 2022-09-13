@@ -52,7 +52,7 @@ class ReleaseCommenter:
 
     @property
     def release_url(self) -> str:
-        return "https://github.com/{self.repo_owner}/{self.repo_name}/releases/tag/{self.release_tag}"
+        return f"https://github.com/{self.repo_owner}/{self.repo_name}/releases/tag/{self.release_tag}"
 
     def get_closed_issues(self, prnum: int) -> list[int]:
         q = (
