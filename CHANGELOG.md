@@ -1,4 +1,11 @@
 
+<a id='changelog-0.0.4'></a>
+# 0.0.4 (2022-09-13)
+
+## Internal
+
+- Make release workflow comment on releases
+
 <a id='changelog-0.0.3'></a>
 # 0.0.3 (2022-09-09)
 
