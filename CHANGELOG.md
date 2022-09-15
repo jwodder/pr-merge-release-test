@@ -1,4 +1,11 @@
 
+<a id='changelog-0.0.6'></a>
+# 0.0.6 (2022-09-15)
+
+## Internal
+
+- Use dev version of scriv
+
 <a id='changelog-0.0.5'></a>
 # 0.0.5 (2022-09-13)
 
