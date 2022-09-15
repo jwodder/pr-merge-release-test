@@ -28,7 +28,7 @@ jobs:
           python-version: '^3.8'
 
       - name: Install Python dependencies
-        run: python -m pip install requests scriv
+        run: python -m pip install requests git+https://github.com/nedbat/scriv
 
       - name: Create release
         run: |
