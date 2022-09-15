@@ -32,9 +32,7 @@
 
 ## Enhancements and New Features
 
-- Added a file
-
-- Add some text
+- Added a file with text
 
 ## Internal
 
